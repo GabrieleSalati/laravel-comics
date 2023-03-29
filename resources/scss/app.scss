@@ -1,9 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 
-.jumbotron {
+body {
     min-height: 100vh;
-}
+    display: flex;
+    flex-direction: column;
+};
 
-img {
-    max-height: 150px;
-}

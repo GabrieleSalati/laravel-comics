@@ -11,11 +11,11 @@
 </head>
 
 <body>
-
-    @include("partials._navbar")
-    <main>@yield("content")</main>
-    @include("partials._footer")
-
+    <div class="container">
+        @include("partials._navbar")
+        <main>@yield("content")</main>
+        @include("partials._footer")
+    </div>
 </body>
 
 </html>
